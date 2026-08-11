@@ -26,7 +26,9 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/site.config.js [ssr] (ecmascript)");
+;
 ;
 ;
 ;
@@ -40,98 +42,31 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                className: "brand footer-brand",
+                                className: "brand footer-brand logo-brand",
                                 href: "/",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        className: "brand-mark",
-                                        children: "IJ"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Footer.js",
-                                        lineNumber: 6,
-                                        columnNumber: 56
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
-                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].name
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Footer.js",
-                                                lineNumber: 6,
-                                                columnNumber: 100
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
-                                                children: "Derecho de familia · Mediación"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Footer.js",
-                                                lineNumber: 6,
-                                                columnNumber: 132
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/Footer.js",
-                                        lineNumber: 6,
-                                        columnNumber: 94
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                "aria-label": `${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].name}, inicio`,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    className: "brand-logo",
+                                    src: "/logo-isidora-jara.png",
+                                    alt: "Isidora Jara Weisser, abogada",
+                                    width: 1100,
+                                    height: 576
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.js",
+                                    lineNumber: 7,
+                                    columnNumber: 107
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 6,
+                                lineNumber: 7,
                                 columnNumber: 10
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                 children: "Orientación legal clara, cercana y confidencial para asuntos de familia."
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 6,
-                                columnNumber: 191
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/Footer.js",
-                        lineNumber: 6,
-                        columnNumber: 5
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                children: "Navegación"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
                                 lineNumber: 7,
-                                columnNumber: 10
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/#nosotras",
-                                children: "El estudio"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 7,
-                                columnNumber: 29
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/#servicios",
-                                children: "Servicios"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 7,
-                                columnNumber: 70
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/#proceso",
-                                children: "Cómo trabajamos"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 7,
-                                columnNumber: 111
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/#agendar",
-                                children: "Agendar consulta"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Footer.js",
-                                lineNumber: 7,
-                                columnNumber: 156
+                                columnNumber: 237
                             }, this)
                         ]
                     }, void 0, true, {
@@ -142,10 +77,57 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                children: "Contacto"
+                                children: "Navegación"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
                                 lineNumber: 8,
+                                columnNumber: 10
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/#nosotras",
+                                children: "El estudio"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.js",
+                                lineNumber: 8,
+                                columnNumber: 29
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/#servicios",
+                                children: "Servicios"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.js",
+                                lineNumber: 8,
+                                columnNumber: 70
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/#proceso",
+                                children: "Cómo trabajamos"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.js",
+                                lineNumber: 8,
+                                columnNumber: 111
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/#agendar",
+                                children: "Agendar consulta"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.js",
+                                lineNumber: 8,
+                                columnNumber: 156
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/Footer.js",
+                        lineNumber: 8,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                                children: "Contacto"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Footer.js",
+                                lineNumber: 9,
                                 columnNumber: 10
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -153,7 +135,7 @@ function Footer() {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["contact"].phoneDisplay
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 8,
+                                lineNumber: 9,
                                 columnNumber: 27
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -161,7 +143,7 @@ function Footer() {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["contact"].email
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 8,
+                                lineNumber: 9,
                                 columnNumber: 86
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -174,33 +156,33 @@ function Footer() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 8,
+                                lineNumber: 9,
                                 columnNumber: 141
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].location
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 8,
+                                lineNumber: 9,
                                 columnNumber: 244
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].hours
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 8,
+                                lineNumber: 9,
                                 columnNumber: 276
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 8,
+                        lineNumber: 9,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 5,
+                lineNumber: 6,
                 columnNumber: 42
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -216,7 +198,7 @@ function Footer() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 50
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -224,26 +206,26 @@ function Footer() {
                         children: "Privacidad"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 139
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                         children: "La información de este sitio es general y no constituye asesoría legal."
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 181
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Footer.js",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 10
     }, this);
 }
@@ -257,8 +239,10 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react/jsx-dev-runtime [external] (react/jsx-dev-runtime, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/site.config.js [ssr] (ecmascript)");
+;
 ;
 ;
 ;
@@ -272,45 +256,25 @@ function Header() {
             className: "container header-inner",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    className: "brand",
+                    className: "brand logo-brand",
                     href: "/",
                     onClick: close,
-                    "aria-label": `${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].name}, inicio`,
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                            className: "brand-mark",
-                            children: "IJ"
-                        }, void 0, false, {
-                            fileName: "[project]/components/Header.js",
-                            lineNumber: 10,
-                            columnNumber: 96
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("strong", {
-                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].name
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Header.js",
-                                    lineNumber: 10,
-                                    columnNumber: 140
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("small", {
-                                    children: "Derecho de familia · Mediación"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Header.js",
-                                    lineNumber: 10,
-                                    columnNumber: 172
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/Header.js",
-                            lineNumber: 10,
-                            columnNumber: 134
-                        }, this)
-                    ]
-                }, void 0, true, {
+                    "aria-label": `${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].name}, abogada, inicio`,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        className: "brand-logo",
+                        src: "/logo-isidora-jara.png",
+                        alt: "Isidora Jara Weisser, abogada",
+                        width: 1100,
+                        height: 576,
+                        priority: true
+                    }, void 0, false, {
+                        fileName: "[project]/components/Header.js",
+                        lineNumber: 11,
+                        columnNumber: 116
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/components/Header.js",
-                    lineNumber: 10,
+                    lineNumber: 11,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -321,18 +285,18 @@ function Header() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {}, void 0, false, {
                             fileName: "[project]/components/Header.js",
-                            lineNumber: 11,
+                            lineNumber: 12,
                             columnNumber: 115
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("i", {}, void 0, false, {
                             fileName: "[project]/components/Header.js",
-                            lineNumber: 11,
+                            lineNumber: 12,
                             columnNumber: 122
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Header.js",
-                    lineNumber: 11,
+                    lineNumber: 12,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("nav", {
@@ -345,7 +309,7 @@ function Header() {
                             children: "El estudio"
                         }, void 0, false, {
                             fileName: "[project]/components/Header.js",
-                            lineNumber: 12,
+                            lineNumber: 13,
                             columnNumber: 77
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -354,7 +318,7 @@ function Header() {
                             children: "Servicios"
                         }, void 0, false, {
                             fileName: "[project]/components/Header.js",
-                            lineNumber: 12,
+                            lineNumber: 13,
                             columnNumber: 134
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -363,7 +327,7 @@ function Header() {
                             children: "Cómo trabajamos"
                         }, void 0, false, {
                             fileName: "[project]/components/Header.js",
-                            lineNumber: 12,
+                            lineNumber: 13,
                             columnNumber: 191
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -372,7 +336,7 @@ function Header() {
                             children: "Preguntas"
                         }, void 0, false, {
                             fileName: "[project]/components/Header.js",
-                            lineNumber: 12,
+                            lineNumber: 13,
                             columnNumber: 252
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -384,24 +348,24 @@ function Header() {
                             children: "WhatsApp"
                         }, void 0, false, {
                             fileName: "[project]/components/Header.js",
-                            lineNumber: 12,
+                            lineNumber: 13,
                             columnNumber: 309
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Header.js",
-                    lineNumber: 12,
+                    lineNumber: 13,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Header.js",
-            lineNumber: 9,
+            lineNumber: 10,
             columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Header.js",
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 10
     }, this);
 }
@@ -671,11 +635,8 @@ function Home() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("title", {
-                        children: [
-                            __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].name,
-                            " | Mediación y Derecho de Familia"
-                        ]
-                    }, void 0, true, {
+                        children: `${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["practice"].name} | Mediación y Derecho de Familia`
+                    }, void 0, false, {
                         fileName: "[project]/pages/index.js",
                         lineNumber: 69,
                         columnNumber: 9
@@ -1978,8 +1939,8 @@ __turbopack_context__.s([
     ()=>practice
 ]);
 const practice = {
-    name: 'Isidora Jara',
-    lawyer: 'María Isidora Jara',
+    name: 'Isidora Jara Weisser',
+    lawyer: 'Isidora Jara Weisser',
     location: 'Santiago, Chile',
     hours: 'Lunes a viernes · 09:00 a 18:00 hrs.',
     serviceMode: 'Atención online en todo Chile y presencial en Santiago.'

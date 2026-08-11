@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{practice.name} | Mediación y Derecho de Familia</title>
+        <title>{`${practice.name} | Mediación y Derecho de Familia`}</title>
         <meta name="description" content="Asesoría legal y mediación familiar en Chile. Atención profesional, cercana y confidencial en alimentos, cuidado personal, visitas y divorcio." />
         <meta property="og:title" content={`${practice.name} | Derecho de Familia`} />
         <meta property="og:description" content="Soluciones claras y humanas para asuntos de familia." />

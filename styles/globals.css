@@ -16,3 +16,5 @@
 @media(max-width:600px){.step{grid-template-columns:52px 1fr;padding:23px 18px;gap:16px}.step-icon{width:50px;height:50px}.step-icon svg{width:27px;height:27px}.step-connector{left:36px!important}.step h3{font-size:26px}}
 .button-whatsapp{background:#247d60;color:#fff;border:1px solid #5fa88e}
 .whatsapp-icon{width:22px;height:22px;flex:0 0 auto}.whatsapp-float .whatsapp-icon{width:30px;height:30px}
+.logo-brand{display:flex;height:70px;align-items:center}.brand-logo{display:block;width:150px;height:auto;object-fit:contain}.footer-brand.logo-brand{height:auto}.footer-brand .brand-logo{width:190px;filter:brightness(0) invert(1);opacity:.92}
+@media(max-width:600px){.logo-brand{height:60px}.brand-logo{width:125px}.footer-brand .brand-logo{width:175px}}

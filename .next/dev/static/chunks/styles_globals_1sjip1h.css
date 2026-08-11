@@ -1025,4 +1025,41 @@ h2 em {
   height: 30px;
 }
 
+.logo-brand {
+  align-items: center;
+  height: 70px;
+  display: flex;
+}
+
+.brand-logo {
+  object-fit: contain;
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+.footer-brand.logo-brand {
+  height: auto;
+}
+
+.footer-brand .brand-logo {
+  filter: brightness(0) invert();
+  opacity: .92;
+  width: 190px;
+}
+
+@media (max-width: 600px) {
+  .logo-brand {
+    height: 60px;
+  }
+
+  .brand-logo {
+    width: 125px;
+  }
+
+  .footer-brand .brand-logo {
+    width: 175px;
+  }
+}
+
 /*# sourceMappingURL=styles_globals_1sjip1h.css.map*/

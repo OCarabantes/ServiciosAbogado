@@ -1,7 +1,2 @@
-{"timestamp":"00:00:00.788","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.451","source":"Server","level":"ERROR","message":"React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>."}
-{"timestamp":"00:05:20.473","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
-{"timestamp":"00:05:21.017","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
-{"timestamp":"00:05:21.491","source":"Server","level":"LOG","message":"✓ Compiled in 7ms"}
-{"timestamp":"00:08:21.412","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
-{"timestamp":"00:08:21.921","source":"Server","level":"LOG","message":"✓ Compiled in 5ms"}
+{"timestamp":"00:00:00.728","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:08.890","source":"Server","level":"WARN","message":"⚠ Blocked cross-origin request to Next.js dev resource /_next/hmr from \"192.168.10.151\".\nCross-origin access to Next.js dev resources is blocked by default for safety.\n\nTo allow this host in development, add it to \"allowedDevOrigins\" in next.config.js and restart the dev server:\n\n// next.config.js\nmodule.exports = {\n  allowedDevOrigins: ['192.168.10.151'],\n}\n\nRead more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins"}

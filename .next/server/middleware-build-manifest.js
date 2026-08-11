@@ -1,44 +1,46 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
-      "static/chunks/3-c5087sgcl5m.js",
-      "static/chunks/1emyeuep-i0kv.js",
-      "static/chunks/41i790_n9gwmf.js",
+      "static/chunks/37cchqmsq4523.js",
+      "static/chunks/41p41cpfju8p4.js",
+      "static/chunks/0cwl4ixb7qbeo.js",
       "static/chunks/16913-qh7xh_-.js",
-      "static/chunks/turbopack-1ttzjtnesg-08.js"
+      "static/chunks/turbopack-2n35w3ce45n8n.js"
     ],
     "/404": [
-      "static/chunks/1swc8fdme31kd.js",
+      "static/chunks/2qb6ja8cr9_mn.js",
+      "static/chunks/41p41cpfju8p4.js",
+      "static/chunks/0cwl4ixb7qbeo.js",
       "static/chunks/16913-qh7xh_-.js",
-      "static/chunks/1emyeuep-i0kv.js",
-      "static/chunks/turbopack-23gle_uhi1ivy.js"
+      "static/chunks/turbopack-1h5u4vhey6zoi.js"
     ],
     "/_app": [
-      "static/chunks/2qwe40hiyxysb.js",
+      "static/chunks/0ln6sf04sq9x8.js",
       "static/chunks/16913-qh7xh_-.js",
-      "static/chunks/1emyeuep-i0kv.js",
-      "static/chunks/01xv6i9t7sqe4.css",
-      "static/chunks/turbopack-0jxf08orb2y9h.js"
+      "static/chunks/0cwl4ixb7qbeo.js",
+      "static/chunks/19cpcev249m78.css",
+      "static/chunks/turbopack-2ob2vifb7yvq7.js"
     ],
     "/_error": [
-      "static/chunks/3y7__v_jtn-l6.js",
+      "static/chunks/1ydapg03jk0_c.js",
       "static/chunks/16913-qh7xh_-.js",
-      "static/chunks/1emyeuep-i0kv.js",
-      "static/chunks/turbopack-0w-ta7roo4x4m.js"
+      "static/chunks/0cwl4ixb7qbeo.js",
+      "static/chunks/turbopack-3cus2vds876an.js"
     ],
     "/privacidad": [
-      "static/chunks/3uncf_sx4j5m9.js",
+      "static/chunks/0h4fijwo_n2le.js",
+      "static/chunks/41p41cpfju8p4.js",
+      "static/chunks/0cwl4ixb7qbeo.js",
       "static/chunks/16913-qh7xh_-.js",
-      "static/chunks/1emyeuep-i0kv.js",
-      "static/chunks/turbopack-1p8gp1em1t_z8.js"
+      "static/chunks/turbopack-0pcfxtdoz1n4f.js"
     ]
   },
   "devFiles": [],
   "polyfillFiles": [],
   "lowPriorityFiles": [
-    "static/6pPhsx9WlPNrFUTkNr_Mk/_buildManifest.js",
-    "static/6pPhsx9WlPNrFUTkNr_Mk/_ssgManifest.js",
-    "static/6pPhsx9WlPNrFUTkNr_Mk/_clientMiddlewareManifest.js"
+    "static/7jrYTDv4NcoHAJQX-kle_/_buildManifest.js",
+    "static/7jrYTDv4NcoHAJQX-kle_/_ssgManifest.js",
+    "static/7jrYTDv4NcoHAJQX-kle_/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [],
   "rootMainFilesTree": {},
