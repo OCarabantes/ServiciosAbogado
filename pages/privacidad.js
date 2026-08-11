@@ -1,0 +1,8 @@
+import Head from 'next/head'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import { contact, practice } from '../site.config'
+
+export default function Privacy() {
+  return <><Head><title>Política de privacidad | {practice.name}</title><meta name="robots" content="noindex" /></Head><Header /><main className="container legal-page"><p className="eyebrow">Información legal</p><h1>Política de privacidad</h1><p>Esta política explica el uso de los datos enviados voluntariamente a través de este sitio.</p><h2>Datos recopilados</h2><p>Podemos recibir nombre, teléfono, materia de consulta, modalidad preferida y el comentario que la persona decida proporcionar. Evita incluir antecedentes especialmente sensibles en el primer contacto.</p><h2>Finalidad y conservación</h2><p>Los datos se utilizan exclusivamente para responder la solicitud, evaluar una posible atención profesional y coordinar una consulta. Se conservan solo durante el tiempo necesario para esa finalidad o para cumplir obligaciones legales.</p><h2>Canales externos</h2><p>Al continuar por WhatsApp o correo electrónico, el tratamiento también queda sujeto a las condiciones de esos proveedores. Ningún envío crea por sí solo una relación abogada-cliente.</p><h2>Derechos y contacto</h2><p>Para solicitar acceso, rectificación o eliminación de tus datos, escribe a <a href={`mailto:${contact.email}`}>{contact.email}</a>.</p><p><small>Última actualización: agosto de 2026. Este texto debe ser revisado con los datos y procedimientos definitivos del estudio antes de la publicación.</small></p></main><Footer /></>
+}
