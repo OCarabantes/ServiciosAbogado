@@ -1,17 +1,37 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { contact, practice } from '../site.config'
 
 const services = [
-  ['Mediación familiar', 'Construcción de acuerdos voluntarios, equilibrados y sostenibles para la familia.', '/servicio-mediacion.png', 'Personas revisando un acuerdo durante una mediación'],
-  ['Pensión de alimentos', 'Orientación para acordar montos, forma de pago y actualización de obligaciones.', '/servicio-alimentos.png', 'Organización del presupuesto familiar para acordar una pensión de alimentos'],
-  ['Cuidado personal', 'Acuerdos centrados en el bienestar de niños, niñas y adolescentes.', '/servicio-infancia.png', 'Casas de madera y dibujo infantil que representan el cuidado familiar'],
-  ['Relación directa y regular', 'Organización clara de tiempos, visitas, vacaciones y responsabilidades.', '/servicio-relacion-regular.png', 'Planificación de tiempos y visitas entre dos hogares'],
-  ['Divorcio y separación', 'Asesoría en acuerdos completos y preparación de antecedentes legales.', '/servicio-asesoria.png', 'Documentos organizados en una oficina jurídica de Santiago'],
-  ['Asesoría en derecho de familia', 'Evaluación jurídica confidencial para comprender opciones y próximos pasos.', '/servicio-derecho-familia.png', 'Abogada consultando un libro jurídico en su estudio'],
+  ['Mediación familiar', 'Construcción de acuerdos voluntarios, equilibrados y sostenibles para la familia.', '/servicio-mediacion.png', 'Personas revisando un acuerdo durante una mediación', <>
+    <p>En Chile (Ley 19.968), la mediación familiar es un <strong>trámite obligatorio y previo</strong> antes de poder demandar en tribunales por materias como:</p>
+    <ul style={{ color: 'var(--muted)', marginBottom: '16px' }}><li>Pensión de alimentos</li><li>Cuidado personal (tuición)</li><li>Relación directa y regular (visitas)</li></ul>
+    <p>El objetivo es construir un acuerdo voluntario con la misma validez que una sentencia judicial, evitando el desgaste emocional y económico de un juicio largo.</p>
+  </>],
+  ['Pensión de alimentos', 'Orientación para acordar montos, forma de pago y actualización de obligaciones.', '/servicio-alimentos.png', 'Organización del presupuesto familiar para acordar una pensión de alimentos', <>
+    <p>La pensión de alimentos busca garantizar el sustento integral de los hijos. En Chile, según la Ley 21.389, los alimentos deben cubrir no solo la comida, sino vivienda, educación, salud y recreación.</p>
+    <p>En caso de incumplimiento reiterado, existen apremios severos y la inscripción automática en el <strong>Registro Nacional de Deudores de Pensiones de Alimentos</strong>, limitando el acceso a créditos, retención de impuestos y renovación de licencias.</p>
+  </>],
+  ['Cuidado personal', 'Acuerdos centrados en el bienestar de niños, niñas y adolescentes.', '/servicio-infancia.png', 'Casas de madera y dibujo infantil que representan el cuidado familiar', <>
+    <p>Conocido tradicionalmente como "tuición", la Ley 20.680 en Chile fomenta el <strong>Principio de Corresponsabilidad</strong>. Ambos padres, vivan juntos o separados, deben participar activa y equitativamente en la crianza y educación.</p>
+    <p>En caso de separación, el cuidado personal puede ser ejercido por uno de los padres o de manera compartida, primando siempre el interés superior del niño.</p>
+  </>],
+  ['Relación directa y regular', 'Organización clara de tiempos, visitas, vacaciones y responsabilidades.', '/servicio-relacion-regular.png', 'Planificación de tiempos y visitas entre dos hogares', <>
+    <p>El régimen de visitas es el derecho y deber del padre o madre que no vive con sus hijos a mantener un contacto directo y frecuente con ellos. La ley chilena protege este vínculo como fundamental para el desarrollo sano de los menores.</p>
+    <p>Es clave establecer un régimen claro y estructurado (fines de semana, vacaciones, cumpleaños) para evitar conflictos constantes y dar estabilidad a los niños.</p>
+  </>],
+  ['Divorcio y separación', 'Asesoría en acuerdos completos y preparación de antecedentes legales.', '/servicio-asesoria.png', 'Documentos organizados en una oficina jurídica de Santiago', <>
+    <p>En Chile, para solicitar el divorcio debes cumplir con el <strong>cese de convivencia</strong> (separación de hecho comprobable). Los plazos son:</p>
+    <ul style={{ color: 'var(--muted)', marginBottom: '16px' }}><li><strong>1 año</strong>: Para Divorcio de Mutuo Acuerdo (ambos cónyuges solicitan).</li><li><strong>3 años</strong>: Para Divorcio Unilateral (solo uno solicita).</li></ul>
+    <p>Durante este proceso, se discuten materias accesorias como alimentos, cuidado personal, bienes y la posible compensación económica para el cónyuge que no pudo trabajar por dedicarse al hogar.</p>
+  </>],
+  ['Asesoría en derecho de familia', 'Evaluación jurídica confidencial para comprender opciones y próximos pasos.', '/servicio-derecho-familia.png', 'Abogada consultando un libro jurídico en su estudio', <>
+    <p>Antes de tomar cualquier decisión, ya sea iniciar una mediación o una demanda en los Tribunales de Familia, es crucial una evaluación jurídica profunda.</p>
+    <p>Te orientamos sobre las pruebas necesarias, las etapas del proceso, tus posibilidades reales según la jurisprudencia actual chilena y elaboramos una estrategia legal pensada a largo plazo para protegerte a ti y a tu patrimonio.</p>
+  </>],
 ]
 
 const steps = [
@@ -33,17 +53,52 @@ function Icon({ children }) {
 
 function ProcessIcon({ name }) {
   const common = { fill: 'none', stroke: 'currentColor', strokeWidth: 1.5, strokeLinecap: 'round', strokeLinejoin: 'round' }
-  if (name === 'chat') return <svg viewBox="0 0 48 48" aria-hidden="true" {...common}><path d="M9 11.5h30v21H21l-8.5 6v-6H9z"/><path d="M16 20h16M16 25h10"/></svg>
-  if (name === 'search') return <svg viewBox="0 0 48 48" aria-hidden="true" {...common}><circle cx="21" cy="21" r="11"/><path d="m29 29 10 10M17 21l3 3 6-7"/></svg>
-  return <svg viewBox="0 0 48 48" aria-hidden="true" {...common}><path d="M8 36c8-1 8-12 16-12s8-11 16-12"/><path d="m34 9 6 3-3 6"/><circle cx="9" cy="36" r="2.5"/><circle cx="24" cy="24" r="2.5"/></svg>
+  if (name === 'chat') return <svg viewBox="0 0 48 48" aria-hidden="true" {...common}><path d="M9 11.5h30v21H21l-8.5 6v-6H9z" /><path d="M16 20h16M16 25h10" /></svg>
+  if (name === 'search') return <svg viewBox="0 0 48 48" aria-hidden="true" {...common}><circle cx="21" cy="21" r="11" /><path d="m29 29 10 10M17 21l3 3 6-7" /></svg>
+  return <svg viewBox="0 0 48 48" aria-hidden="true" {...common}><path d="M8 36c8-1 8-12 16-12s8-11 16-12" /><path d="m34 9 6 3-3 6" /><circle cx="9" cy="36" r="2.5" /><circle cx="24" cy="24" r="2.5" /></svg>
 }
 
 function WhatsAppIcon() {
-  return <svg className="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.05 3A12.76 12.76 0 0 0 5.14 22.36L3.32 29l6.79-1.78A12.75 12.75 0 1 0 16.05 3Zm0 2.15a10.6 10.6 0 1 1-5.4 19.72l-.38-.23-4.03 1.06 1.08-3.93-.25-.4a10.61 10.61 0 0 1 8.98-16.22Zm-4.72 5.31c-.24 0-.63.09-.96.46-.33.36-1.26 1.23-1.26 3 0 1.77 1.29 3.48 1.47 3.72.18.24 2.53 3.87 6.14 5.43.86.37 1.53.59 2.05.75.86.27 1.64.23 2.26.14.69-.1 2.12-.87 2.42-1.71.3-.84.3-1.56.21-1.71-.09-.15-.33-.24-.69-.42-.36-.18-2.12-1.05-2.45-1.17-.33-.12-.57-.18-.81.18-.24.36-.93 1.17-1.14 1.41-.21.24-.42.27-.78.09-.36-.18-1.52-.56-2.89-1.78a10.85 10.85 0 0 1-2-2.49c-.21-.36-.02-.55.16-.73.16-.16.36-.42.54-.63.18-.21.24-.36.36-.6.12-.24.06-.45-.03-.63-.09-.18-.81-1.95-1.11-2.67-.29-.7-.59-.6-.81-.61h-.69Z"/></svg>
+  return <img src="/wspLogo.png" alt="WhatsApp" className="whatsapp-icon" style={{ objectFit: 'contain' }} />
 }
 
 export default function Home() {
-  const [form, setForm] = useState({ name: '', phone: '', matter: 'Mediación familiar', mode: 'Videollamada', date: '', message: '', consent: false })
+  const [form, setForm] = useState({ name: '', phone: '', matter: 'Mediación familiar', mode: 'Videollamada (Meet / Teams)', date: '', message: '', consent: false, contactMethod: 'whatsapp' })
+  const [activeModal, setActiveModal] = useState(null)
+  const carouselRef = useRef(null)
+
+  useEffect(() => {
+    const el = carouselRef.current
+    if (!el) return
+    
+    let interval
+    const startScroll = () => {
+      interval = setInterval(() => {
+        const cardWidth = el.querySelector('.service-card')?.offsetWidth + 20 || 350
+        if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 10) {
+          el.scrollTo({ left: 0, behavior: 'smooth' })
+        } else {
+          el.scrollBy({ left: cardWidth, behavior: 'smooth' })
+        }
+      }, 4000)
+    }
+
+    startScroll()
+    
+    const pause = () => clearInterval(interval)
+    el.addEventListener('mouseenter', pause)
+    el.addEventListener('mouseleave', startScroll)
+    el.addEventListener('touchstart', pause, { passive: true })
+    el.addEventListener('touchend', startScroll, { passive: true })
+    
+    return () => {
+      clearInterval(interval)
+      el.removeEventListener('mouseenter', pause)
+      el.removeEventListener('mouseleave', startScroll)
+      el.removeEventListener('touchstart', pause)
+      el.removeEventListener('touchend', startScroll)
+    }
+  }, [])
 
   function update(e) {
     const { name, value, checked, type } = e.target
@@ -60,7 +115,13 @@ export default function Home() {
       `Teléfono: ${form.phone}.`,
       form.message && `Comentario: ${form.message}`,
     ].filter(Boolean).join('\n')
-    window.open(`https://wa.me/${contact.whatsapp}?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer')
+
+    if (form.contactMethod === 'correo') {
+      const subject = encodeURIComponent(`Solicitud de consulta: ${form.name}`)
+      window.location.href = `mailto:${contact.email}?subject=${subject}&body=${encodeURIComponent(text)}`
+    } else {
+      window.open(`https://wa.me/${contact.whatsapp}?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer')
+    }
   }
 
   return (
@@ -70,14 +131,14 @@ export default function Home() {
         <meta name="description" content="Asesoría legal y mediación familiar en Chile. Atención profesional, cercana y confidencial en alimentos, cuidado personal, visitas y divorcio." />
         <meta property="og:title" content={`${practice.name} | Derecho de Familia`} />
         <meta property="og:description" content="Soluciones claras y humanas para asuntos de familia." />
-        <meta property="og:image" content="/abogada-mediacion-familiar.png" />
+        <meta property="og:image" content="/abogada-mediacion-familiar-v2.png" />
         <meta name="theme-color" content="#173f3a" />
       </Head>
       <Header />
 
       <main>
         <section className="hero" id="inicio">
-          <Image className="hero-image" src="/abogada-mediacion-familiar.png" alt="Abogada revisando antecedentes en una oficina profesional" fill priority sizes="100vw" />
+          <Image className="hero-image" src="/abogada-mediacion-familiar-v2.png" alt="Abogada revisando antecedentes en una oficina profesional" fill priority sizes="100vw" />
           <div className="hero-shade" />
           <div className="container hero-content">
             <p className="eyebrow light">Mediación · Derecho de familia · Chile</p>
@@ -119,9 +180,9 @@ export default function Home() {
               <div><p className="eyebrow">Áreas de práctica</p><h2>Asesoría para cada etapa</h2></div>
               <p>Evaluamos cada caso de manera responsable para encontrar la vía más adecuada, dentro o fuera de tribunales.</p>
             </div>
-            <div className="services-grid">
-              {services.map(([title, copy, image, alt], index) => (
-                <article className="service-card" key={title}>
+            <div className="services-grid" ref={carouselRef}>
+              {services.map(([title, copy, image, alt, legalDetails], index) => (
+                <article className="service-card" key={title} onClick={() => setActiveModal({ title, legalDetails })}>
                   <div className="service-image"><Image src={image} alt={alt} fill sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw" /></div>
                   <div className="service-body"><span className="service-number">0{index + 1}</span><h3>{title}</h3><p>{copy}</p></div>
                 </article>
@@ -148,7 +209,7 @@ export default function Home() {
             <div className="appointment-copy">
               <p className="eyebrow">Agenda tu consulta</p>
               <h2>Conversemos sobre<br /><em>tu situación.</em></h2>
-              <p>Completa tus datos y se abrirá WhatsApp con la solicitud preparada. La hora queda sujeta a confirmación.</p>
+              <p>Completa tus datos y se preparará tu solicitud para ser enviada por tu medio preferido. La hora queda sujeta a confirmación.</p>
               <div className="contact-list">
                 <a href={`https://wa.me/${contact.whatsapp}`} target="_blank" rel="noreferrer"><span>WhatsApp</span><strong>{contact.phoneDisplay}</strong></a>
                 <a href={`mailto:${contact.email}`}><span>Correo</span><strong>{contact.email}</strong></a>
@@ -164,12 +225,13 @@ export default function Home() {
               </div>
               <label>¿En qué necesitas orientación?<select name="matter" value={form.matter} onChange={update}>{services.map(([title]) => <option key={title}>{title}</option>)}</select></label>
               <div className="field-row">
-                <label>Modalidad<select name="mode" value={form.mode} onChange={update}><option>Videollamada</option><option>Presencial</option><option>Por definir</option></select></label>
+                <label>Modalidad<select name="mode" value={form.mode} onChange={update}><option>Videollamada (Meet / Teams)</option><option>Consulta por WhatsApp</option><option>Presencial</option><option>Por definir</option></select></label>
                 <label>Fecha preferida<input name="date" value={form.date} onChange={update} type="date" /></label>
               </div>
               <label>Comentario breve <span className="optional">Opcional</span><textarea name="message" value={form.message} onChange={update} rows="3" /></label>
+              <label>Enviar solicitud por:<select name="contactMethod" value={form.contactMethod} onChange={update}><option value="whatsapp">WhatsApp</option><option value="correo">Correo Electrónico</option></select></label>
               <label className="check"><input name="consent" checked={form.consent} onChange={update} type="checkbox" required /><span>Acepto el tratamiento de estos datos para responder mi solicitud, según la <a href="/privacidad">política de privacidad</a>.</span></label>
-              <button className="button button-dark" type="submit">Continuar por WhatsApp <span>→</span></button>
+              <button className="button button-dark" type="submit">Continuar por {form.contactMethod === 'correo' ? 'Correo' : 'WhatsApp'} <span>→</span></button>
               <p className="form-note">Este formulario no crea una relación abogada-cliente ni confirma automáticamente una cita.</p>
             </form>
           </div>
@@ -182,6 +244,20 @@ export default function Home() {
         <section className="final-cta"><div className="container"><p className="eyebrow light">Da el primer paso</p><h2>Una conversación puede<br />abrir nuevas posibilidades.</h2><a className="button button-gold" href="#agendar">Solicitar consulta <span>→</span></a></div></section>
       </main>
       <Footer />
+
+      {activeModal && (
+        <div className="modal-overlay active" onClick={() => setActiveModal(null)}>
+          <div className="modal-content" onClick={e => e.stopPropagation()}>
+            <button className="modal-close" onClick={() => setActiveModal(null)} aria-label="Cerrar">×</button>
+            <h3>{activeModal.title}</h3>
+            {activeModal.legalDetails}
+            <div style={{ marginTop: '30px' }}>
+              <a className="button button-gold" href="#agendar" onClick={() => { setActiveModal(null); setForm(f => ({ ...f, matter: activeModal.title })) }}>Consultar sobre esto <span>→</span></a>
+            </div>
+          </div>
+        </div>
+      )}
+
       <a className="whatsapp-float" href={`https://wa.me/${contact.whatsapp}?text=${encodeURIComponent('Hola, quisiera solicitar una consulta de derecho de familia.')}`} target="_blank" rel="noreferrer" aria-label="Contactar por WhatsApp"><WhatsAppIcon /></a>
     </>
   )

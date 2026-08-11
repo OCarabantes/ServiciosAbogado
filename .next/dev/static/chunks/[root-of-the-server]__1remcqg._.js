@@ -354,13 +354,69 @@ function Header() {
                             columnNumber: 252
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            className: "nav-cta",
-                            href: `https://wa.me/${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["contact"].whatsapp}?text=${encodeURIComponent('Hola, quisiera solicitar una consulta de derecho de familia.')}`,
-                            target: "_blank",
-                            rel: "noreferrer",
+                            className: "nav-cta mail-cta",
+                            href: "/#agendar",
                             onClick: close,
-                            children: "WhatsApp"
-                        }, void 0, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                    viewBox: "0 0 24 24",
+                                    fill: "none",
+                                    stroke: "currentColor",
+                                    strokeWidth: "2",
+                                    strokeLinecap: "round",
+                                    strokeLinejoin: "round",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                                            x: "3",
+                                            y: "4",
+                                            width: "18",
+                                            height: "18",
+                                            rx: "2",
+                                            ry: "2"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.js",
+                                            lineNumber: 13,
+                                            columnNumber: 494
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
+                                            x1: "16",
+                                            y1: "2",
+                                            x2: "16",
+                                            y2: "6"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.js",
+                                            lineNumber: 13,
+                                            columnNumber: 556
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
+                                            x1: "8",
+                                            y1: "2",
+                                            x2: "8",
+                                            y2: "6"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.js",
+                                            lineNumber: 13,
+                                            columnNumber: 599
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
+                                            x1: "3",
+                                            y1: "10",
+                                            x2: "21",
+                                            y2: "10"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.js",
+                                            lineNumber: 13,
+                                            columnNumber: 640
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Header.js",
+                                    lineNumber: 13,
+                                    columnNumber: 374
+                                }, this),
+                                " Agenda tu consulta"
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/Header.js",
                             lineNumber: 13,
                             columnNumber: 309
@@ -369,6 +425,34 @@ function Header() {
                 }, void 0, true, {
                     fileName: "[project]/components/Header.js",
                     lineNumber: 13,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                    "aria-hidden": "true",
+                    viewBox: "0 0 100 1000",
+                    style: {
+                        position: 'absolute',
+                        left: '50%',
+                        top: '50%',
+                        transform: 'translate(-50%, -50%) rotate(-90deg)',
+                        height: '1100px',
+                        width: 'auto',
+                        opacity: 0.025,
+                        pointerEvents: 'none',
+                        zIndex: -1,
+                        color: 'var(--green)'
+                    },
+                    fill: "currentColor",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M40 0 C 50 100, 30 200, 45 300 C 60 400, 40 500, 50 600 C 60 700, 30 800, 40 900 C 50 950, 20 980, 25 1000 L 15 1000 C 10 980, 30 950, 20 900 C 10 800, 40 700, 30 600 C 20 500, 40 400, 25 300 C 10 200, 30 100, 20 0 Z"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Header.js",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/Header.js",
+                    lineNumber: 14,
                     columnNumber: 7
                 }, this)
             ]
@@ -418,37 +502,286 @@ const services = [
         'Mediación familiar',
         'Construcción de acuerdos voluntarios, equilibrados y sostenibles para la familia.',
         '/servicio-mediacion.png',
-        'Personas revisando un acuerdo durante una mediación'
+        'Personas revisando un acuerdo durante una mediación',
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: [
+                        "En Chile (Ley 19.968), la mediación familiar es un ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                            children: "trámite obligatorio y previo"
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 10,
+                            columnNumber: 59
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        " antes de poder demandar en tribunales por materias como:"
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 10,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                    style: {
+                        color: 'var(--muted)',
+                        marginBottom: '16px'
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            children: "Pensión de alimentos"
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 11,
+                            columnNumber: 65
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            children: "Cuidado personal (tuición)"
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 11,
+                            columnNumber: 94
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            children: "Relación directa y regular (visitas)"
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 11,
+                            columnNumber: 129
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 11,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: "El objetivo es construir un acuerdo voluntario con la misma validez que una sentencia judicial, evitando el desgaste emocional y económico de un juicio largo."
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 12,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/index.js",
+            lineNumber: 9,
+            columnNumber: 193
+        }, ("TURBOPACK compile-time value", void 0))
     ],
     [
         'Pensión de alimentos',
         'Orientación para acordar montos, forma de pago y actualización de obligaciones.',
         '/servicio-alimentos.png',
-        'Organización del presupuesto familiar para acordar una pensión de alimentos'
+        'Organización del presupuesto familiar para acordar una pensión de alimentos',
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: "La pensión de alimentos busca garantizar el sustento integral de los hijos. En Chile, según la Ley 21.389, los alimentos deben cubrir no solo la comida, sino vivienda, educación, salud y recreación."
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 15,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: [
+                        "En caso de incumplimiento reiterado, existen apremios severos y la inscripción automática en el ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                            children: "Registro Nacional de Deudores de Pensiones de Alimentos"
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 16,
+                            columnNumber: 104
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        ", limitando el acceso a créditos, retención de impuestos y renovación de licencias."
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 16,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/index.js",
+            lineNumber: 14,
+            columnNumber: 217
+        }, ("TURBOPACK compile-time value", void 0))
     ],
     [
         'Cuidado personal',
         'Acuerdos centrados en el bienestar de niños, niñas y adolescentes.',
         '/servicio-infancia.png',
-        'Casas de madera y dibujo infantil que representan el cuidado familiar'
+        'Casas de madera y dibujo infantil que representan el cuidado familiar',
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: [
+                        'Conocido tradicionalmente como "tuición", la Ley 20.680 en Chile fomenta el ',
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                            children: "Principio de Corresponsabilidad"
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 19,
+                            columnNumber: 84
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        ". Ambos padres, vivan juntos o separados, deben participar activa y equitativamente en la crianza y educación."
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 19,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: "En caso de separación, el cuidado personal puede ser ejercido por uno de los padres o de manera compartida, primando siempre el interés superior del niño."
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 20,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/index.js",
+            lineNumber: 18,
+            columnNumber: 193
+        }, ("TURBOPACK compile-time value", void 0))
     ],
     [
         'Relación directa y regular',
         'Organización clara de tiempos, visitas, vacaciones y responsabilidades.',
         '/servicio-relacion-regular.png',
-        'Planificación de tiempos y visitas entre dos hogares'
+        'Planificación de tiempos y visitas entre dos hogares',
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: "El régimen de visitas es el derecho y deber del padre o madre que no vive con sus hijos a mantener un contacto directo y frecuente con ellos. La ley chilena protege este vínculo como fundamental para el desarrollo sano de los menores."
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 23,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: "Es clave establecer un régimen claro y estructurado (fines de semana, vacaciones, cumpleaños) para evitar conflictos constantes y dar estabilidad a los niños."
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 24,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/index.js",
+            lineNumber: 22,
+            columnNumber: 199
+        }, ("TURBOPACK compile-time value", void 0))
     ],
     [
         'Divorcio y separación',
         'Asesoría en acuerdos completos y preparación de antecedentes legales.',
         '/servicio-asesoria.png',
-        'Documentos organizados en una oficina jurídica de Santiago'
+        'Documentos organizados en una oficina jurídica de Santiago',
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: [
+                        "En Chile, para solicitar el divorcio debes cumplir con el ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                            children: "cese de convivencia"
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 27,
+                            columnNumber: 66
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        " (separación de hecho comprobable). Los plazos son:"
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 27,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                    style: {
+                        color: 'var(--muted)',
+                        marginBottom: '16px'
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    children: "1 año"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/index.js",
+                                    lineNumber: 28,
+                                    columnNumber: 69
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                ": Para Divorcio de Mutuo Acuerdo (ambos cónyuges solicitan)."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 28,
+                            columnNumber: 65
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    children: "3 años"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/index.js",
+                                    lineNumber: 28,
+                                    columnNumber: 160
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                ": Para Divorcio Unilateral (solo uno solicita)."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 28,
+                            columnNumber: 156
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 28,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: "Durante este proceso, se discuten materias accesorias como alimentos, cuidado personal, bienes y la posible compensación económica para el cónyuge que no pudo trabajar por dedicarse al hogar."
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 29,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/index.js",
+            lineNumber: 26,
+            columnNumber: 190
+        }, ("TURBOPACK compile-time value", void 0))
     ],
     [
         'Asesoría en derecho de familia',
         'Evaluación jurídica confidencial para comprender opciones y próximos pasos.',
         '/servicio-derecho-familia.png',
-        'Abogada consultando un libro jurídico en su estudio'
+        'Abogada consultando un libro jurídico en su estudio',
+        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: "Antes de tomar cualquier decisión, ya sea iniciar una mediación o una demanda en los Tribunales de Familia, es crucial una evaluación jurídica profunda."
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 32,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    children: "Te orientamos sobre las pruebas necesarias, las etapas del proceso, tus posibilidades reales según la jurisprudencia actual chilena y elaboramos una estrategia legal pensada a largo plazo para protegerte a ti y a tu patrimonio."
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 33,
+                    columnNumber: 5
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/index.js",
+            lineNumber: 31,
+            columnNumber: 205
+        }, ("TURBOPACK compile-time value", void 0))
     ]
 ];
 const steps = [
@@ -496,7 +829,7 @@ function Icon({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 31,
+        lineNumber: 51,
         columnNumber: 10
     }, this);
 }
@@ -518,20 +851,20 @@ function ProcessIcon({ name }) {
                 d: "M9 11.5h30v21H21l-8.5 6v-6H9z"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 36,
+                lineNumber: 56,
                 columnNumber: 87
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M16 20h16M16 25h10"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 36,
-                columnNumber: 128
+                lineNumber: 56,
+                columnNumber: 129
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 36,
+        lineNumber: 56,
         columnNumber: 31
     }, this);
     if (name === 'search') return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -545,20 +878,20 @@ function ProcessIcon({ name }) {
                 r: "11"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 37,
+                lineNumber: 57,
                 columnNumber: 89
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "m29 29 10 10M17 21l3 3 6-7"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 37,
-                columnNumber: 121
+                lineNumber: 57,
+                columnNumber: 122
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 37,
+        lineNumber: 57,
         columnNumber: 33
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -570,15 +903,15 @@ function ProcessIcon({ name }) {
                 d: "M8 36c8-1 8-12 16-12s8-11 16-12"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 38,
+                lineNumber: 58,
                 columnNumber: 66
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "m34 9 6 3-3 6"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 38,
-                columnNumber: 109
+                lineNumber: 58,
+                columnNumber: 110
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
                 cx: "9",
@@ -586,8 +919,8 @@ function ProcessIcon({ name }) {
                 r: "2.5"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 38,
-                columnNumber: 134
+                lineNumber: 58,
+                columnNumber: 136
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
                 cx: "24",
@@ -595,33 +928,28 @@ function ProcessIcon({ name }) {
                 r: "2.5"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 38,
-                columnNumber: 166
+                lineNumber: 58,
+                columnNumber: 169
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 38,
+        lineNumber: 58,
         columnNumber: 10
     }, this);
 }
 _c1 = ProcessIcon;
 function WhatsAppIcon() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+        src: "/wspLogo.png",
+        alt: "WhatsApp",
         className: "whatsapp-icon",
-        viewBox: "0 0 32 32",
-        "aria-hidden": "true",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-            fill: "currentColor",
-            d: "M16.05 3A12.76 12.76 0 0 0 5.14 22.36L3.32 29l6.79-1.78A12.75 12.75 0 1 0 16.05 3Zm0 2.15a10.6 10.6 0 1 1-5.4 19.72l-.38-.23-4.03 1.06 1.08-3.93-.25-.4a10.61 10.61 0 0 1 8.98-16.22Zm-4.72 5.31c-.24 0-.63.09-.96.46-.33.36-1.26 1.23-1.26 3 0 1.77 1.29 3.48 1.47 3.72.18.24 2.53 3.87 6.14 5.43.86.37 1.53.59 2.05.75.86.27 1.64.23 2.26.14.69-.1 2.12-.87 2.42-1.71.3-.84.3-1.56.21-1.71-.09-.15-.33-.24-.69-.42-.36-.18-2.12-1.05-2.45-1.17-.33-.12-.57-.18-.81.18-.24.36-.93 1.17-1.14 1.41-.21.24-.42.27-.78.09-.36-.18-1.52-.56-2.89-1.78a10.85 10.85 0 0 1-2-2.49c-.21-.36-.02-.55.16-.73.16-.16.36-.42.54-.63.18-.21.24-.36.36-.6.12-.24.06-.45-.03-.63-.09-.18-.81-1.95-1.11-2.67-.29-.7-.59-.6-.81-.61h-.69Z"
-        }, void 0, false, {
-            fileName: "[project]/pages/index.js",
-            lineNumber: 42,
-            columnNumber: 80
-        }, this)
+        style: {
+            objectFit: 'contain'
+        }
     }, void 0, false, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 42,
+        lineNumber: 62,
         columnNumber: 10
     }, this);
 }
@@ -632,11 +960,62 @@ function Home() {
         name: '',
         phone: '',
         matter: 'Mediación familiar',
-        mode: 'Videollamada',
+        mode: 'Videollamada (Meet / Teams)',
         date: '',
         message: '',
-        consent: false
+        consent: false,
+        contactMethod: 'whatsapp'
     });
+    const [activeModal, setActiveModal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const carouselRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Home.useEffect": ()=>{
+            const el = carouselRef.current;
+            if (!el) return;
+            let interval;
+            const startScroll = {
+                "Home.useEffect.startScroll": ()=>{
+                    interval = setInterval({
+                        "Home.useEffect.startScroll": ()=>{
+                            const cardWidth = el.querySelector('.service-card')?.offsetWidth + 20 || 350;
+                            if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 10) {
+                                el.scrollTo({
+                                    left: 0,
+                                    behavior: 'smooth'
+                                });
+                            } else {
+                                el.scrollBy({
+                                    left: cardWidth,
+                                    behavior: 'smooth'
+                                });
+                            }
+                        }
+                    }["Home.useEffect.startScroll"], 4000);
+                }
+            }["Home.useEffect.startScroll"];
+            startScroll();
+            const pause = {
+                "Home.useEffect.pause": ()=>clearInterval(interval)
+            }["Home.useEffect.pause"];
+            el.addEventListener('mouseenter', pause);
+            el.addEventListener('mouseleave', startScroll);
+            el.addEventListener('touchstart', pause, {
+                passive: true
+            });
+            el.addEventListener('touchend', startScroll, {
+                passive: true
+            });
+            return ({
+                "Home.useEffect": ()=>{
+                    clearInterval(interval);
+                    el.removeEventListener('mouseenter', pause);
+                    el.removeEventListener('mouseleave', startScroll);
+                    el.removeEventListener('touchstart', pause);
+                    el.removeEventListener('touchend', startScroll);
+                }
+            })["Home.useEffect"];
+        }
+    }["Home.useEffect"], []);
     function update(e) {
         const { name, value, checked, type } = e.target;
         setForm((current)=>({
@@ -654,7 +1033,12 @@ function Home() {
             `Teléfono: ${form.phone}.`,
             form.message && `Comentario: ${form.message}`
         ].filter(Boolean).join('\n');
-        window.open(`https://wa.me/${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["contact"].whatsapp}?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+        if (form.contactMethod === 'correo') {
+            const subject = encodeURIComponent(`Solicitud de consulta: ${form.name}`);
+            window.location.href = `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["contact"].email}?subject=${subject}&body=${encodeURIComponent(text)}`;
+        } else {
+            window.open(`https://wa.me/${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["contact"].whatsapp}?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+        }
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
@@ -664,7 +1048,7 @@ function Home() {
                         children: `${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["practice"].name} | Mediación y Derecho de Familia`
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 69,
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -672,7 +1056,7 @@ function Home() {
                         content: "Asesoría legal y mediación familiar en Chile. Atención profesional, cercana y confidencial en alimentos, cuidado personal, visitas y divorcio."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 70,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -680,7 +1064,7 @@ function Home() {
                         content: `${__TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["practice"].name} | Derecho de Familia`
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 71,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -688,15 +1072,15 @@ function Home() {
                         content: "Soluciones claras y humanas para asuntos de familia."
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 72,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         property: "og:image",
-                        content: "/abogada-mediacion-familiar.png"
+                        content: "/abogada-mediacion-familiar-v2.png"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 73,
+                        lineNumber: 134,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -704,18 +1088,18 @@ function Home() {
                         content: "#173f3a"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 74,
+                        lineNumber: 135,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 68,
+                lineNumber: 129,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 76,
+                lineNumber: 137,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -726,21 +1110,21 @@ function Home() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                 className: "hero-image",
-                                src: "/abogada-mediacion-familiar.png",
+                                src: "/abogada-mediacion-familiar-v2.png",
                                 alt: "Abogada revisando antecedentes en una oficina profesional",
                                 fill: true,
                                 priority: true,
                                 sizes: "100vw"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 80,
+                                lineNumber: 141,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "hero-shade"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 81,
+                                lineNumber: 142,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -751,7 +1135,7 @@ function Home() {
                                         children: "Mediación · Derecho de familia · Chile"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 83,
+                                        lineNumber: 144,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -759,14 +1143,14 @@ function Home() {
                                             "Acuerdos que protegen",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 84,
+                                                lineNumber: 145,
                                                 columnNumber: 38
                                             }, this),
                                             "lo que más importa."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 84,
+                                        lineNumber: 145,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -774,7 +1158,7 @@ function Home() {
                                         children: "Asesoría jurídica cercana, estratégica y confidencial para ayudarte a avanzar con claridad en momentos familiares complejos."
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 85,
+                                        lineNumber: 146,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -789,13 +1173,13 @@ function Home() {
                                                         children: "→"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 87,
+                                                        lineNumber: 148,
                                                         columnNumber: 88
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 87,
+                                                lineNumber: 148,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -806,7 +1190,7 @@ function Home() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(WhatsAppIcon, {}, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 88,
+                                                        lineNumber: 149,
                                                         columnNumber: 220
                                                     }, this),
                                                     " Hablar por WhatsApp ",
@@ -814,13 +1198,13 @@ function Home() {
                                                         children: "↗"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 88,
+                                                        lineNumber: 149,
                                                         columnNumber: 257
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 88,
+                                                lineNumber: 149,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -832,31 +1216,31 @@ function Home() {
                                                         children: "↓"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 89,
+                                                        lineNumber: 150,
                                                         columnNumber: 87
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 89,
+                                                lineNumber: 150,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 86,
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 82,
+                                lineNumber: 143,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 79,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -871,7 +1255,7 @@ function Home() {
                                             children: "◇"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 96,
+                                            lineNumber: 157,
                                             columnNumber: 18
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -880,26 +1264,26 @@ function Home() {
                                                     children: "Atención confidencial"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 96,
+                                                    lineNumber: 157,
                                                     columnNumber: 38
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                     children: "Tu situación se trata con discreción"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 96,
+                                                    lineNumber: 157,
                                                     columnNumber: 76
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 96,
+                                            lineNumber: 157,
                                             columnNumber: 32
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 96,
+                                    lineNumber: 157,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -908,7 +1292,7 @@ function Home() {
                                             children: "○"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 97,
+                                            lineNumber: 158,
                                             columnNumber: 18
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -917,26 +1301,26 @@ function Home() {
                                                     children: "Orientación clara"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 97,
+                                                    lineNumber: 158,
                                                     columnNumber: 38
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                     children: "Información comprensible y directa"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 97,
+                                                    lineNumber: 158,
                                                     columnNumber: 72
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 97,
+                                            lineNumber: 158,
                                             columnNumber: 32
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 97,
+                                    lineNumber: 158,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -945,7 +1329,7 @@ function Home() {
                                             children: "⌁"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 98,
+                                            lineNumber: 159,
                                             columnNumber: 18
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -954,37 +1338,37 @@ function Home() {
                                                     children: "Enfoque colaborativo"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 98,
+                                                    lineNumber: 159,
                                                     columnNumber: 38
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
                                                     children: "Soluciones pensadas para perdurar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 98,
+                                                    lineNumber: 159,
                                                     columnNumber: 75
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 98,
+                                            lineNumber: 159,
                                             columnNumber: 32
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 98,
+                                    lineNumber: 159,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 95,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 94,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1000,7 +1384,7 @@ function Home() {
                                             children: "Una mirada jurídica y humana"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 105,
+                                            lineNumber: 166,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1008,26 +1392,26 @@ function Home() {
                                                 "Resolver con firmeza.",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 106,
+                                                    lineNumber: 167,
                                                     columnNumber: 40
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                                     children: "Acompañar con empatía."
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 106,
+                                                    lineNumber: 167,
                                                     columnNumber: 46
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 106,
+                                            lineNumber: 167,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 104,
+                                    lineNumber: 165,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1037,7 +1421,7 @@ function Home() {
                                             children: "Los conflictos familiares necesitan más que una respuesta legal: requieren escucha, criterio y una estrategia que considere a cada persona involucrada."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 109,
+                                            lineNumber: 170,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1048,7 +1432,7 @@ function Home() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 110,
+                                            lineNumber: 171,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1060,30 +1444,30 @@ function Home() {
                                                     children: "→"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 111,
+                                                    lineNumber: 172,
                                                     columnNumber: 72
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 111,
+                                            lineNumber: 172,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 108,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 103,
+                            lineNumber: 164,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 102,
+                        lineNumber: 163,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1102,39 +1486,44 @@ function Home() {
                                                     children: "Áreas de práctica"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 119,
+                                                    lineNumber: 180,
                                                     columnNumber: 20
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                     children: "Asesoría para cada etapa"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 119,
+                                                    lineNumber: 180,
                                                     columnNumber: 64
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 119,
+                                            lineNumber: 180,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Evaluamos cada caso de manera responsable para encontrar la vía más adecuada, dentro o fuera de tribunales."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 120,
+                                            lineNumber: 181,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 118,
+                                    lineNumber: 179,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "services-grid",
-                                    children: services.map(([title, copy, image, alt], index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
+                                    ref: carouselRef,
+                                    children: services.map(([title, copy, image, alt, legalDetails], index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
                                             className: "service-card",
+                                            onClick: ()=>setActiveModal({
+                                                    title,
+                                                    legalDetails
+                                                }),
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "service-image",
@@ -1145,12 +1534,12 @@ function Home() {
                                                         sizes: "(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 125,
+                                                        lineNumber: 186,
                                                         columnNumber: 50
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 125,
+                                                    lineNumber: 186,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1164,49 +1553,49 @@ function Home() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 126,
+                                                            lineNumber: 187,
                                                             columnNumber: 49
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                             children: title
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 126,
+                                                            lineNumber: 187,
                                                             columnNumber: 101
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: copy
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 126,
+                                                            lineNumber: 187,
                                                             columnNumber: 117
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 126,
+                                                    lineNumber: 187,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, title, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 124,
+                                            lineNumber: 185,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 122,
+                                    lineNumber: 183,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 117,
+                            lineNumber: 178,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 116,
+                        lineNumber: 177,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1223,7 +1612,7 @@ function Home() {
                                             children: "Proceso de atención"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 135,
+                                            lineNumber: 196,
                                             columnNumber: 44
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1231,21 +1620,21 @@ function Home() {
                                                 "Un camino claro",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 135,
+                                                    lineNumber: 196,
                                                     columnNumber: 115
                                                 }, this),
                                                 "desde el primer contacto"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 135,
+                                            lineNumber: 196,
                                             columnNumber: 96
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "No necesitas tener todas las respuestas. El primer paso es comprender tu situación y tus alternativas."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 135,
+                                            lineNumber: 196,
                                             columnNumber: 150
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1259,19 +1648,19 @@ function Home() {
                                                     children: "↗"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 135,
+                                                    lineNumber: 196,
                                                     columnNumber: 493
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 135,
+                                            lineNumber: 196,
                                             columnNumber: 259
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 135,
+                                    lineNumber: 196,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1285,12 +1674,12 @@ function Home() {
                                                         name: icon
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/index.js",
-                                                        lineNumber: 138,
+                                                        lineNumber: 199,
                                                         columnNumber: 44
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 138,
+                                                    lineNumber: 199,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1304,27 +1693,27 @@ function Home() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 139,
+                                                            lineNumber: 200,
                                                             columnNumber: 47
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                             children: title
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 139,
+                                                            lineNumber: 200,
                                                             columnNumber: 97
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: copy
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 139,
+                                                            lineNumber: 200,
                                                             columnNumber: 113
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 139,
+                                                    lineNumber: 200,
                                                     columnNumber: 17
                                                 }, this),
                                                 index < steps.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1333,29 +1722,29 @@ function Home() {
                                                     children: "↓"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 140,
+                                                    lineNumber: 201,
                                                     columnNumber: 46
                                                 }, this)
                                             ]
                                         }, number, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 137,
+                                            lineNumber: 198,
                                             columnNumber: 66
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 136,
+                                    lineNumber: 197,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 134,
+                            lineNumber: 195,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 133,
+                        lineNumber: 194,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1372,7 +1761,7 @@ function Home() {
                                             children: "Agenda tu consulta"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 149,
+                                            lineNumber: 210,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1380,27 +1769,27 @@ function Home() {
                                                 "Conversemos sobre",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 150,
+                                                    lineNumber: 211,
                                                     columnNumber: 36
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
                                                     children: "tu situación."
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 150,
+                                                    lineNumber: 211,
                                                     columnNumber: 42
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 150,
+                                            lineNumber: 211,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Completa tus datos y se abrirá WhatsApp con la solicitud preparada. La hora queda sujeta a confirmación."
+                                            children: "Completa tus datos y se preparará tu solicitud para ser enviada por tu medio preferido. La hora queda sujeta a confirmación."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 151,
+                                            lineNumber: 212,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1415,20 +1804,20 @@ function Home() {
                                                             children: "WhatsApp"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 153,
+                                                            lineNumber: 214,
                                                             columnNumber: 96
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["contact"].phoneDisplay
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 153,
+                                                            lineNumber: 214,
                                                             columnNumber: 117
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 153,
+                                                    lineNumber: 214,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1438,20 +1827,20 @@ function Home() {
                                                             children: "Correo"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 154,
+                                                            lineNumber: 215,
                                                             columnNumber: 53
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["contact"].email
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 154,
+                                                            lineNumber: 215,
                                                             columnNumber: 72
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 154,
+                                                    lineNumber: 215,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1461,20 +1850,20 @@ function Home() {
                                                             children: "Teléfono"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 155,
+                                                            lineNumber: 216,
                                                             columnNumber: 50
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["contact"].phoneDisplay
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 155,
+                                                            lineNumber: 216,
                                                             columnNumber: 71
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 155,
+                                                    lineNumber: 216,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1486,26 +1875,26 @@ function Home() {
                                                             children: "Instagram"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 156,
+                                                            lineNumber: 217,
                                                             columnNumber: 78
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["contact"].instagramDisplay
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 156,
+                                                            lineNumber: 217,
                                                             columnNumber: 100
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 156,
+                                                    lineNumber: 217,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 152,
+                                            lineNumber: 213,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
@@ -1513,20 +1902,20 @@ function Home() {
                                                 __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["practice"].hours,
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 158,
+                                                    lineNumber: 219,
                                                     columnNumber: 38
                                                 }, this),
                                                 __TURBOPACK__imported__module__$5b$project$5d2f$site$2e$config$2e$js__$5b$client$5d$__$28$ecmascript$29$__["practice"].serviceMode
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 158,
+                                            lineNumber: 219,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 148,
+                                    lineNumber: 209,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1547,13 +1936,13 @@ function Home() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 162,
+                                                            lineNumber: 223,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 162,
+                                                    lineNumber: 223,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1568,19 +1957,19 @@ function Home() {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 163,
+                                                            lineNumber: 224,
                                                             columnNumber: 32
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 163,
+                                                    lineNumber: 224,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 161,
+                                            lineNumber: 222,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1594,18 +1983,18 @@ function Home() {
                                                             children: title
                                                         }, title, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 165,
+                                                            lineNumber: 226,
                                                             columnNumber: 139
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 165,
+                                                    lineNumber: 226,
                                                     columnNumber: 52
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 165,
+                                            lineNumber: 226,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1620,36 +2009,43 @@ function Home() {
                                                             onChange: update,
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                                                    children: "Videollamada"
+                                                                    children: "Videollamada (Meet / Teams)"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.js",
-                                                                    lineNumber: 167,
+                                                                    lineNumber: 228,
                                                                     columnNumber: 89
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                    children: "Consulta por WhatsApp"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/pages/index.js",
+                                                                    lineNumber: 228,
+                                                                    columnNumber: 133
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                     children: "Presencial"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.js",
-                                                                    lineNumber: 167,
-                                                                    columnNumber: 118
+                                                                    lineNumber: 228,
+                                                                    columnNumber: 171
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                                     children: "Por definir"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/pages/index.js",
-                                                                    lineNumber: 167,
-                                                                    columnNumber: 145
+                                                                    lineNumber: 228,
+                                                                    columnNumber: 198
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 167,
+                                                            lineNumber: 228,
                                                             columnNumber: 33
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 167,
+                                                    lineNumber: 228,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1662,19 +2058,19 @@ function Home() {
                                                             type: "date"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 168,
+                                                            lineNumber: 229,
                                                             columnNumber: 39
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 168,
+                                                    lineNumber: 229,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 166,
+                                            lineNumber: 227,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1685,7 +2081,7 @@ function Home() {
                                                     children: "Opcional"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 170,
+                                                    lineNumber: 231,
                                                     columnNumber: 39
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1695,13 +2091,49 @@ function Home() {
                                                     rows: "3"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 170,
+                                                    lineNumber: 231,
                                                     columnNumber: 81
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 170,
+                                            lineNumber: 231,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            children: [
+                                                "Enviar solicitud por:",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                    name: "contactMethod",
+                                                    value: form.contactMethod,
+                                                    onChange: update,
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                            value: "whatsapp",
+                                                            children: "WhatsApp"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/index.js",
+                                                            lineNumber: 232,
+                                                            columnNumber: 117
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                            value: "correo",
+                                                            children: "Correo Electrónico"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/index.js",
+                                                            lineNumber: 232,
+                                                            columnNumber: 159
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/pages/index.js",
+                                                    lineNumber: 232,
+                                                    columnNumber: 43
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/pages/index.js",
+                                            lineNumber: 232,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1715,7 +2147,7 @@ function Home() {
                                                     required: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 171,
+                                                    lineNumber: 233,
                                                     columnNumber: 40
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1726,38 +2158,40 @@ function Home() {
                                                             children: "política de privacidad"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 171,
+                                                            lineNumber: 233,
                                                             columnNumber: 211
                                                         }, this),
                                                         "."
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 171,
+                                                    lineNumber: 233,
                                                     columnNumber: 130
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 171,
+                                            lineNumber: 233,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             className: "button button-dark",
                                             type: "submit",
                                             children: [
-                                                "Continuar por WhatsApp ",
+                                                "Continuar por ",
+                                                form.contactMethod === 'correo' ? 'Correo' : 'WhatsApp',
+                                                " ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "→"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 172,
-                                                    columnNumber: 91
+                                                    lineNumber: 234,
+                                                    columnNumber: 140
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 172,
+                                            lineNumber: 234,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1765,24 +2199,24 @@ function Home() {
                                             children: "Este formulario no crea una relación abogada-cliente ni confirma automáticamente una cita."
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 173,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 160,
+                                    lineNumber: 221,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 147,
+                            lineNumber: 208,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 146,
+                        lineNumber: 207,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1798,20 +2232,20 @@ function Home() {
                                             children: "Preguntas frecuentes"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 179,
+                                            lineNumber: 241,
                                             columnNumber: 52
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             children: "Antes de comenzar"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 179,
+                                            lineNumber: 241,
                                             columnNumber: 99
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 179,
+                                    lineNumber: 241,
                                     columnNumber: 47
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1824,42 +2258,42 @@ function Home() {
                                                             children: "+"
                                                         }, void 0, false, {
                                                             fileName: "[project]/pages/index.js",
-                                                            lineNumber: 179,
+                                                            lineNumber: 241,
                                                             columnNumber: 187
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 179,
+                                                    lineNumber: 241,
                                                     columnNumber: 175
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: a
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 179,
+                                                    lineNumber: 241,
                                                     columnNumber: 211
                                                 }, this)
                                             ]
                                         }, q, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 179,
+                                            lineNumber: 241,
                                             columnNumber: 158
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 179,
+                                    lineNumber: 241,
                                     columnNumber: 131
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 179,
+                            lineNumber: 241,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 178,
+                        lineNumber: 240,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1872,7 +2306,7 @@ function Home() {
                                     children: "Da el primer paso"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 182,
+                                    lineNumber: 244,
                                     columnNumber: 67
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1880,14 +2314,14 @@ function Home() {
                                         "Una conversación puede",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 182,
+                                            lineNumber: 244,
                                             columnNumber: 143
                                         }, this),
                                         "abrir nuevas posibilidades."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 182,
+                                    lineNumber: 244,
                                     columnNumber: 117
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1899,36 +2333,106 @@ function Home() {
                                             children: "→"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 182,
+                                            lineNumber: 244,
                                             columnNumber: 250
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 182,
+                                    lineNumber: 244,
                                     columnNumber: 181
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 182,
+                            lineNumber: 244,
                             columnNumber: 40
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 182,
+                        lineNumber: 244,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 78,
+                lineNumber: 139,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 184,
+                lineNumber: 246,
                 columnNumber: 7
+            }, this),
+            activeModal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "modal-overlay active",
+                onClick: ()=>setActiveModal(null),
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "modal-content",
+                    onClick: (e)=>e.stopPropagation(),
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "modal-close",
+                            onClick: ()=>setActiveModal(null),
+                            "aria-label": "Cerrar",
+                            children: "×"
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 251,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            children: activeModal.title
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 252,
+                            columnNumber: 13
+                        }, this),
+                        activeModal.legalDetails,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                marginTop: '30px'
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                className: "button button-gold",
+                                href: "#agendar",
+                                onClick: ()=>{
+                                    setActiveModal(null);
+                                    setForm((f)=>({
+                                            ...f,
+                                            matter: activeModal.title
+                                        }));
+                                },
+                                children: [
+                                    "Consultar sobre esto ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: "→"
+                                    }, void 0, false, {
+                                        fileName: "[project]/pages/index.js",
+                                        lineNumber: 255,
+                                        columnNumber: 180
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/pages/index.js",
+                                lineNumber: 255,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/pages/index.js",
+                            lineNumber: 254,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 250,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/pages/index.js",
+                lineNumber: 249,
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                 className: "whatsapp-float",
@@ -1938,22 +2442,22 @@ function Home() {
                 "aria-label": "Contactar por WhatsApp",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(WhatsAppIcon, {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 185,
+                    lineNumber: 261,
                     columnNumber: 240
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 185,
+                lineNumber: 261,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 67,
+        lineNumber: 128,
         columnNumber: 5
     }, this);
 }
-_s(Home, "mH0mF3JM5qFXg/w1DUTSP+ONiYQ=");
+_s(Home, "kCKyLwJDqpnACC1VSz23ZwEQ5RU=");
 _c3 = Home;
 var _c, _c1, _c2, _c3;
 __turbopack_context__.k.register(_c, "Icon");
@@ -1983,9 +2487,9 @@ const practice = {
 };
 const contact = {
     email: 'contacto@isidorajara.cl',
-    phone: '+56982902570',
-    phoneDisplay: '+56 9 8290 2570',
-    whatsapp: '56982902570',
+    phone: '+56951007380',
+    phoneDisplay: '+56 9 5100 7380',
+    whatsapp: '56951007380',
     instagram: 'https://www.instagram.com/mariaisidora_mediaciones',
     instagramDisplay: '@mariaisidora_mediaciones'
 };

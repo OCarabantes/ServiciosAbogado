@@ -9,9 +9,9 @@ export const practice = {
 
 export const contact = {
   email: 'contacto@isidorajara.cl',
-  phone: '+56982902570',
-  phoneDisplay: '+56 9 8290 2570',
-  whatsapp: '56982902570',
+  phone: '+56951007380',
+  phoneDisplay: '+56 9 5100 7380',
+  whatsapp: '56951007380',
   instagram: 'https://www.instagram.com/mariaisidora_mediaciones',
   instagramDisplay: '@mariaisidora_mediaciones',
 }
