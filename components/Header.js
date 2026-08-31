@@ -6,16 +6,97 @@ import { contact, practice } from '../site.config'
 export default function Header() {
   const [open, setOpen] = useState(false)
   const close = () => setOpen(false)
-  return <header className="site-header">
-    <div className="container header-inner">
-      <Link className="brand logo-brand" href="/" onClick={close} aria-label={`${practice.name}, abogada, inicio`}><Image className="brand-logo" src="/logo-isidora-jara.png" alt="Isidora Jara Weisser, abogada" width={1100} height={576} priority /></Link>
-      <button className="menu-button" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Abrir menú"><i></i><i></i></button>
-      <nav className={open ? 'open' : ''} aria-label="Navegación principal"><Link href="/#nosotras" onClick={close}>El estudio</Link><Link href="/#servicios" onClick={close}>Servicios</Link><Link href="/#proceso" onClick={close}>Cómo trabajamos</Link><Link href="/#preguntas" onClick={close}>Preguntas</Link><a className="nav-cta mail-cta" href="/#agendar" onClick={close}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg> Agenda tu consulta</a></nav>
-      <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', zIndex: -1 }}>
-        <svg aria-hidden="true" viewBox="0 0 100 1000" style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%) rotate(-90deg)', height: '1100px', width: 'auto', opacity: 0.025, pointerEvents: 'none', color: 'var(--green)' }} fill="currentColor">
-          <path d="M40 0 C 50 100, 30 200, 45 300 C 60 400, 40 500, 50 600 C 60 700, 30 800, 40 900 C 50 950, 20 980, 25 1000 L 15 1000 C 10 980, 30 950, 20 900 C 10 800, 40 700, 30 600 C 20 500, 40 400, 25 300 C 10 200, 30 100, 20 0 Z" />
-        </svg>
+
+  return (
+    <header className="site-header">
+      <div className="container header-inner">
+        {/* Logo Oficial de Alta Definición (Emblema Monograma IJW + Tipografía Vectorial Nítida) */}
+        <Link className="logo-brand" href="/" onClick={close} aria-label={`${practice.name}, inicio`}>
+          <div className="brand-header-wrap">
+            <Image
+              className="brand-monogram-img"
+              src="/logo-monogram.png"
+              alt="IJW Monograma - Isidora Jara Weisser"
+              width={160}
+              height={98}
+              priority
+              unoptimized
+            />
+            <div className="brand-text-block">
+              <span className="brand-name">ISIDORA JARA WEISSER</span>
+              <span className="brand-title">ABOGADA · MEDIADORA FAMILIAR</span>
+            </div>
+          </div>
+        </Link>
+
+        {/* Navegación Central Ordenada */}
+        <nav className={`nav-menu ${open ? 'open' : ''}`} aria-label="Navegación principal">
+          <Link className="nav-link" href="/#sobre-mi" onClick={close}>
+            Sobre Isidora
+          </Link>
+          <Link className="nav-link" href="/#orientador" onClick={close}>
+            Orientador Legal
+          </Link>
+          <Link className="nav-link" href="/#servicios" onClick={close}>
+            Servicios
+          </Link>
+          <Link className="nav-link" href="/#comparativa" onClick={close}>
+            Mediación vs Juicio
+          </Link>
+          <Link className="nav-link" href="/#preguntas" onClick={close}>
+            Preguntas
+          </Link>
+
+          {/* Acciones para el menú móvil */}
+          <div className="mobile-drawer-actions">
+            <a
+              className="button button-whatsapp"
+              href={`https://wa.me/${contact.whatsapp}?text=${encodeURIComponent('Hola Isidora, quisiera coordinar una consulta.')}`}
+              target="_blank"
+              rel="noreferrer"
+              onClick={close}
+            >
+              <span>💬</span> WhatsApp Directo
+            </a>
+            <a
+              className="button button-gold"
+              href="/#agendar"
+              onClick={close}
+              style={{ marginTop: '10px', width: '100%' }}
+            >
+              Agendar Consulta <span>→</span>
+            </a>
+          </div>
+        </nav>
+
+        {/* Acciones de la Cabecera (Derecha) */}
+        <div className="nav-actions">
+          <a
+            className="nav-phone-quick"
+            href={`https://wa.me/${contact.whatsapp}?text=${encodeURIComponent('Hola Isidora, quisiera hacer una consulta sobre mediación o derecho de familia.')}`}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Hablar por WhatsApp"
+          >
+            <span style={{ color: '#25d366', fontSize: '15px' }}>●</span> WhatsApp
+          </a>
+
+          <a className="button button-gold button-header-cta" href="/#agendar">
+            Agendar Consulta <span>→</span>
+          </a>
+
+          <button
+            className="menu-button"
+            onClick={() => setOpen(!open)}
+            aria-expanded={open}
+            aria-label={open ? 'Cerrar menú' : 'Abrir menú'}
+          >
+            <span style={{ transform: open ? 'rotate(45deg) translate(5px, 5px)' : 'none' }}></span>
+            <span style={{ opacity: open ? 0 : 1 }}></span>
+            <span style={{ transform: open ? 'rotate(-45deg) translate(5px, -5px)' : 'none' }}></span>
+          </button>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
+  )
 }

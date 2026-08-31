@@ -1,2 +1,8 @@
-{"timestamp":"00:00:00.729","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:07.705","source":"Server","level":"WARN","message":"⚠ Blocked cross-origin request to Next.js dev resource /_next/hmr from \"192.168.10.151\".\nCross-origin access to Next.js dev resources is blocked by default for safety.\n\nTo allow this host in development, add it to \"allowedDevOrigins\" in next.config.js and restart the dev server:\n\n// next.config.js\nmodule.exports = {\n  allowedDevOrigins: ['192.168.10.151'],\n}\n\nRead more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins"}
+{"timestamp":"00:00:00.836","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:31.444","source":"Browser","level":"WARN","message":"Image with src \"http://localhost:3000/Abogada%20mirando%20al%20camara%20feliz.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height."}
+{"timestamp":"00:00:31.455","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"http://localhost:3000/Abogada%20mirando%20al%20camara%20feliz.png\\\" has \\\"fill\\\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\""}
+{"timestamp":"00:02:22.908","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
+{"timestamp":"00:02:48.386","source":"Server","level":"LOG","message":"✓ Compiled in 10ms"}
+{"timestamp":"00:05:32.858","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:05:42.817","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:06:14.214","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}

@@ -4,7 +4,7 @@ export const practice = {
   lawyer: 'Isidora Jara Weisser',
   location: 'Santiago, Chile',
   hours: 'Lunes a viernes · 09:00 a 18:00 hrs.',
-  serviceMode: 'Atención online en todo Chile y presencial en Santiago.',
+  serviceMode: 'Atención 100% online en todo Chile vía Google Meet y Microsoft Teams.',
 }
 
 export const contact = {
