@@ -6,3 +6,13 @@
 {"timestamp":"00:05:32.858","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
 {"timestamp":"00:05:42.817","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
 {"timestamp":"00:06:14.214","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:29:56.635","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:32:26.691","source":"Browser","level":"WARN","message":"Image with src \"http://localhost:3000/Abogada%20mirando%20al%20camara%20feliz.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height."}
+{"timestamp":"00:32:26.691","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"http://localhost:3000/Abogada%20mirando%20al%20camara%20feliz.png\\\" has \\\"fill\\\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\""}
+{"timestamp":"00:34:38.632","source":"Server","level":"LOG","message":"✓ Compiled in 7ms"}
+{"timestamp":"00:35:27.949","source":"Server","level":"LOG","message":"✓ Compiled in 7ms"}
+{"timestamp":"00:36:15.932","source":"Server","level":"LOG","message":"✓ Compiled in 8ms"}
+{"timestamp":"00:36:49.686","source":"Browser","level":"WARN","message":"Image with src \"http://localhost:3000/Abogada%20mirando%20al%20camara%20feliz.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height."}
+{"timestamp":"00:36:49.686","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"http://localhost:3000/Abogada%20mirando%20al%20camara%20feliz.png\\\" has \\\"fill\\\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\""}
+{"timestamp":"00:37:26.576","source":"Browser","level":"WARN","message":"Image with src \"http://localhost:3000/Abogada%20mirando%20al%20camara%20feliz.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height."}
+{"timestamp":"00:37:26.577","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"http://localhost:3000/Abogada%20mirando%20al%20camara%20feliz.png\\\" has \\\"fill\\\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\""}

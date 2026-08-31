@@ -279,6 +279,7 @@ export default function Home() {
     <>
       <Head>
         <title>{`${practice.name} | Abogada & Mediadora Familiar en Chile`}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta
           name="description"
           content="Asesoría legal especializada en mediación familiar, pensión de alimentos (Ley 21.389), cuidado personal, visitas y divorcio en Chile. Atención 100% online en todo el país vía Google Meet y Microsoft Teams."
